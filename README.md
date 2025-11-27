@@ -1,23 +1,53 @@
-# Automatic-Blog-Writer 🚀
+🚀 Automatic Blog Writer – AI-Powered Content Generator
 
-A Streamlit + Flask + LangChain + OpenAI–powered AI application that generates high-quality blog posts based on any user-provided topic.
+An intelligent Streamlit + Flask + LangChain + OpenAI–based application that generates high-quality, structured blog posts from any topic.
 
-📌 Overview
+📌 Features
+✅ Generate full blog posts (intro → body → conclusion)
+✅ Uses OpenAI GPT-4o Mini via LangChain
+✅ Clean Streamlit UI
+✅ Flask backend endpoint
 
-Built with:
-Frontend: Streamlit
-Backend: Flask 
-AI Engine: LangChain + OpenAI GPT-4o models
-Environment: Conda
-Users enter a blog topic → the backend sends it to the AI model → a fully structured blog post is returned and displayed.
+🛠️ Tech Stack
+Frontend
+Streamlit
 
-⚙️Setup Guide
+Backend
+Flask (REST API)
+Python Requests
+
+AI / LLM
+LangChain
+OpenAI GPT-4o models
+
+Environment & Tools
+Conda
+Python 3.10
+dotenv
+
+📁 Project Structure
+Automatic-Blog-Writer/
+│
+├── app.py                  # Streamlit frontend
+├── endpoint.py             # Flask backend API
+│
+├── backend/
+│   ├── generate_blog.py    # Blog generation logic (LangChain + OpenAI)
+│
+├── requirements.txt        # Dependencies
+├── .env                    # Environment variables (API Keys)
+├── README.md               # Project documentation
+└── ...
+
+⚙️ Setup Guide
+
+Follow these steps to run the project locally.
 
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/automatic-blog-writer.git
 cd automatic-blog-writer
 
-2️⃣ Create Conda Environment
+2️⃣ Create a Conda Environment
 conda create -n agentapp python=3.10
 conda activate agentapp
 
@@ -26,12 +56,12 @@ pip install -r requirements.txt
 
 4️⃣ Add Your OpenAI API Key
 Create a .env file in the project root:
-OPENAI_API_KEY=your_key
+OPENAI_API_KEY=your_api_key_here
 
-5️⃣ Start Backend (Flask API)
+5️⃣ Start the Backend (Flask API)
 python endpoint.py
 
-6️⃣ Start Frontend (Streamlit)
+6️⃣ Start the Frontend (Streamlit App)
+Open a second terminal:
+conda activate agentapp
 streamlit run app.py
-
-Link: https://linara03-automatic-blog-writer-app-sfcc9e.streamlit.app/
