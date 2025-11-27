@@ -1,4 +1,5 @@
-🚀 Automatic-Blog-Writer
+# Automatic-Blog-Writer 🚀
+
 A Streamlit + Flask + LangChain + OpenAI–powered AI application that generates high-quality blog posts based on any user-provided topic.
 
 📌 Overview
