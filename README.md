@@ -32,7 +32,7 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 - dotenv  
 
 
-⚙️ Setup Guide
+## ⚙️ Setup Guide
 
 Follow these steps to run the project locally.
 
