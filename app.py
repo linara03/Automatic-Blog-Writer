@@ -1,0 +1,20 @@
+import streamlit as st
+import requests
+
+st.title("AI-Powered Blog Writer")
+
+topic = st.text_input("Enter the blog topic:")
+
+if st.button("Generate Blog"):
+    if topic:
+        with st.spinner("Generating blog ..."):
+            response = requests.post(
+                "http://127.0.0.1:5000/generate",
+                json={"topic": topic}
+            )
+            if response.status_code == 200:
+                result = response.json()
+                st.subheader("Generated Blog")
+                st.markdown(result["blog"])
+            else:
+                st.error("Failed to generate blog post.")
