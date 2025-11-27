@@ -2,7 +2,6 @@
 
 An intelligent **Streamlit + Flask + LangChain + OpenAI** application that generates high-quality, structured blog posts from any topic.
 
----
 
 ## ✨ Features
 
@@ -13,7 +12,7 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 - ✅ Modular project structure  
 - ✅ Easy local setup using Conda  
 
----
+
 
 ## 🧠 Tech Stack
 
@@ -35,39 +34,29 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 
 ---
 
-## 📁 Project Structure
-Automatic-Blog-Writer/
-│
-├── app.py # Streamlit UI (frontend)
-├── endpoint.py # Flask backend API
-├── generate_blog.py # Blog generation using LangChain + OpenAI
-├── requirements.txt # Python dependencies
-├── .env # Environment variables (API Key)
-└── README.md # Project documentation
-
 ⚙️ Setup Guide
 
 Follow these steps to run the project locally.
 
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/automatic-blog-writer.git
-cd automatic-blog-writer
+- git clone https://github.com/your-username/automatic-blog-writer.git
+- cd automatic-blog-writer
 
 2️⃣ Create a Conda Environment
-conda create -n agentapp python=3.10
-conda activate agentapp
+- conda create -n agentapp python=3.10
+- conda activate agentapp
 
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 4️⃣ Add Your OpenAI API Key
-Create a .env file in the project root:
-OPENAI_API_KEY=your_api_key_here
+- Create a .env file in the project root:
+- OPENAI_API_KEY=your_api_key_here
 
 5️⃣ Start the Backend (Flask API)
-python endpoint.py
+- python endpoint.py
 
 6️⃣ Start the Frontend (Streamlit App)
-Open a second terminal:
-conda activate agentapp
-streamlit run app.py
+- Open a second terminal:
+ - conda activate agentapp
+ - streamlit run app.py
