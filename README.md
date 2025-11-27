@@ -2,7 +2,8 @@
 
 A Streamlit + Flask + LangChain + OpenAI–powered AI application that generates high-quality blog posts based on any user-provided topic.
 
-#📌 Overview
+📌 Overview
+
 Built with:
 Frontend: Streamlit
 Backend: Flask 
@@ -10,7 +11,8 @@ AI Engine: LangChain + OpenAI GPT-4o models
 Environment: Conda
 Users enter a blog topic → the backend sends it to the AI model → a fully structured blog post is returned and displayed.
 
-#⚙️Setup Guide
+⚙️Setup Guide
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/automatic-blog-writer.git
 cd automatic-blog-writer
