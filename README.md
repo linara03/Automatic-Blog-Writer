@@ -13,7 +13,6 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 - ✅ Easy local setup using Conda  
 
 
-
 ## 🧠 Tech Stack
 
 ### **Frontend**
@@ -32,7 +31,6 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 - Python 3.10  
 - dotenv  
 
----
 
 ⚙️ Setup Guide
 
