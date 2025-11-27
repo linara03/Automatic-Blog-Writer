@@ -37,7 +37,7 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 Follow these steps to run the project locally.
 
 1️⃣ Clone the Repository
-- git clone https://github.com/your-username/automatic-blog-writer.git
+- git clone https://github.com/linara03/Automatic-Blog-Writer.git
 - cd automatic-blog-writer
 
 2️⃣ Create a Conda Environment
