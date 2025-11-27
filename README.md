@@ -1,17 +1,12 @@
 # 🚀 Automatic Blog Writer
-
 An intelligent **Streamlit + Flask + LangChain + OpenAI** application that generates high-quality, structured blog posts from any topic.
-
 
 ## ✨ Features
 
-- ✅ Generate full blog posts (introduction → body → conclusion)  
-- ✅ Uses **OpenAI GPT-4o Mini** through LangChain  
-- ✅ Clean and fast **Streamlit UI**  
-- ✅ Flask backend API  
-- ✅ Modular project structure  
-- ✅ Easy local setup using Conda  
-
+-  Generate full blog posts (introduction → body → conclusion)  
+-  Uses **OpenAI GPT-4o Mini** through LangChain  
+-  Clean and fast **Streamlit UI**  
+-  Flask backend API  
 
 ## 🧠 Tech Stack
 
@@ -31,10 +26,7 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 - Python 3.10  
 - dotenv  
 
-
 ## ⚙️ Setup Guide
-
-Follow these steps to run the project locally.
 
 1️⃣ Clone the Repository
 - git clone https://github.com/linara03/Automatic-Blog-Writer.git
@@ -51,10 +43,10 @@ Follow these steps to run the project locally.
 - Create a .env file in the project root:
 - OPENAI_API_KEY=your_api_key_here
 
-5️⃣ Start the Backend (Flask API)
+5️⃣ Start the Backend
 - python endpoint.py
 
-6️⃣ Start the Frontend (Streamlit App)
+6️⃣ Start the Frontend
 - Open a second terminal:
  - conda activate agentapp
  - streamlit run app.py
