@@ -36,19 +36,14 @@ An intelligent **Streamlit + Flask + LangChain + OpenAI** application that gener
 ---
 
 ## 📁 Project Structure
-
 Automatic-Blog-Writer/
 │
-├── app.py                  # Streamlit frontend
-├── endpoint.py             # Flask backend API
-│
-├── backend/
-│   ├── generate_blog.py    # Blog generation logic (LangChain + OpenAI)
-│
-├── requirements.txt        # Dependencies
-├── .env                    # Environment variables (API Keys)
-├── README.md               # Project documentation
-└── ...
+├── app.py # Streamlit UI (frontend)
+├── endpoint.py # Flask backend API
+├── generate_blog.py # Blog generation using LangChain + OpenAI
+├── requirements.txt # Python dependencies
+├── .env # Environment variables (API Key)
+└── README.md # Project documentation
 
 ⚙️ Setup Guide
 
