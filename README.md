@@ -1,4 +1,4 @@
-# 🚀 Automatic Blog Writer
+# 🚀 AI Blog Writer
 An intelligent **Streamlit + Flask + LangChain + OpenAI** application that generates high-quality, structured blog posts from any topic.
 
 ## ✨ Features
